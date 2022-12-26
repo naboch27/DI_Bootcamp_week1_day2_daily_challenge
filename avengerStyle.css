@@ -1,0 +1,337 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+body {
+    
+    background-image: url("photo/thor1.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+   }*/
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.logo {
+  margin-left: 40px;
+  margin-right: 700px;
+  font-size: 40px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  height: 40px;
+}
+
+.parag-1 {
+  position: absolute;
+  margin-top: -250px;
+  color: white;
+  font-size: 17px;
+  text-align: justify;
+  text-align: center;
+}
+
+.thor-title {
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.img-1 {
+
+  background-image: url("photo/thor-avenger.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1366px;
+  height: 520px;
+
+}
+
+/* --Responsive--*/
+@media screen and (max-width: 600px) {
+
+  /* apply for screens where the maximum width is 600px*/
+  body {
+    height: 1900px;
+    width: 1366px;
+  }
+
+  .nav-mainn {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1366px;
+    height: 70px;
+  }
+
+  .parag-1 {
+    position: absolute;
+    margin-top: -250px;
+    color: white;
+    font-size: 17px;
+    text-align: justify;
+    text-align: center;
+    width: 1366px;
+    ;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    position: relative;
+
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: yellow;
+  }
+
+  li {
+    float: left;
+    margin-left: 40px;
+    font-size: 35px;
+  }
+
+
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 601px) {
+
+  /* apply for screens where the maximum width is 600px*/
+  body {
+    height: 1900px;
+    width: 1366px;
+  }
+
+  .nav-mainn {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1366px;
+    height: 70px;
+  }
+
+  .parag-1 {
+    position: absolute;
+    margin-top: -250px;
+    color: white;
+    font-size: 17px;
+    text-align: justify;
+    text-align: center;
+    width: 1366px;
+    ;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    position: relative;
+
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 255, 85);
+  }
+
+  li {
+    float: left;
+    margin-left: 40px;
+    font-size: 25px;
+  }
+
+
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+  /* apply for screens where the maximum width is 600px*/
+  body {
+    height: 1900px;
+    width: 1366px;
+  }
+
+  .nav-mainn {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1366px;
+    height: 70px;
+  }
+
+  .parag-1 {
+    position: absolute;
+    margin-top: -250px;
+    color: white;
+    font-size: 17px;
+    text-align: justify;
+    text-align: center;
+    width: 1366px;
+    ;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    position: relative;
+
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 0, 0);
+  }
+
+  li {
+    float: left;
+    margin-left: 40px;
+    font-size: 25px;
+  }
+
+
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+}
+
+@media screen and (max-width: 1201px) and (min-width: 992px) {
+
+  /* apply for screens where the maximum width is 600px*/
+  body {
+    height: 1900px;
+    width: 1366px;
+  }
+
+  .nav-mainn {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1366px;
+    height: 70px;
+  }
+
+  .parag-1 {
+    position: absolute;
+    margin-top: -250px;
+    color: white;
+    font-size: 17px;
+    text-align: justify;
+    text-align: center;
+    width: 1366px;
+    ;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    position: relative;
+
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  li {
+    float: left;
+    margin-left: 40px;
+    font-size: 25px;
+  }
+
+
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+}
